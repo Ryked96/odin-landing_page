@@ -4,6 +4,22 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 24px;
+}
+
+.head-links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .footer {
     display: flex;
     flex: 1 1 auto;
