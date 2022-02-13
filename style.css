@@ -7,6 +7,7 @@ body {
 .dark {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 100px;
 }
 
 .header {
@@ -14,8 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin: 0;
-    padding: 4px 100px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -35,10 +35,21 @@ ul {
 }
 
 .awesome {
-  
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome-text {
+    width: 500px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .awesome img {
+    
    
 }
 
