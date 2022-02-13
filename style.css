@@ -40,12 +40,21 @@ ul {
 }
 
 .awesome-text {
-    width: 500px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.awesome-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .awesome img {
