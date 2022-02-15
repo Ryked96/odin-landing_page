@@ -62,6 +62,15 @@ ul {
     height: auto;
 }
 
+.container {
+    padding: 0 200px;
+    flex: 1;
+}
+
+.quote_area {
+    background-color: #E5E7EB;
+}
+
 .footer {
     display: flex;
     flex: 1 1 auto;
