@@ -5,7 +5,8 @@ body {
 }
 
 .dark,
-.container {
+.container,
+.boxes {
     padding: 0 200px
 }
 /* Add each section of the site here. Applies the padding.*/
@@ -86,14 +87,20 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 52px;
+    gap: 50px;
+    padding-bottom: 100px;
 }
 
-.box {
+.gallery img {
     border-radius: 25px;
     border: 4px solid #3882F6;
-    width: 140px;
-    height: 150px;
+    max-width: 150px;
+    height: auto;
+}
+
+.image-subtext {
+    font-size: 18px;
+    text-align: center;
 }
 
 .quote_area {
