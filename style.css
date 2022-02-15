@@ -4,6 +4,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .dark {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -64,7 +66,13 @@ ul {
 
 .container {
     padding: 0 200px;
-    flex: 1;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .quote_area {
