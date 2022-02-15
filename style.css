@@ -81,9 +81,20 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 30px;
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
 
+.box {
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    width: 140px;
+    height: 150px;
+}
 
 .quote_area {
     background-color: #E5E7EB;
