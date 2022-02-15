@@ -4,12 +4,16 @@ body {
     flex-direction: column;
 }
 
+.dark,
+.container {
+    padding: 0 200px
+}
+/* Add each section of the site here. Applies the padding.*/
 
 
 .dark {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 200px;
 }
 
 .header {
@@ -65,15 +69,21 @@ ul {
 }
 
 .container {
-    padding: 0 200px;
+    
 }
 
 .container p {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
+
+
 
 .quote_area {
     background-color: #E5E7EB;
