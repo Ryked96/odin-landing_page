@@ -76,17 +76,17 @@ ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 30px;
+    padding: 40px;
 }
 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
 }
 
 .box {
