@@ -87,13 +87,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
     padding-bottom: 50px;
 }
 
 .frame {
     align-items: center;
+    align-content: center;
+    justify-content: center;
     height: 300px;
+    width: 150px;
 }
 
 .frame img {
@@ -105,6 +108,7 @@ ul {
 
 .image-subtext {
     font-size: 18px;
+    width: 150px;
     text-align: center;
 }
 
