@@ -88,7 +88,12 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.frame {
+    align-items: center;
+    height: 300px;
 }
 
 .frame img {
@@ -100,6 +105,7 @@ ul {
 
 .image-subtext {
     font-size: 18px;
+    text-align: center;
 }
 
 .quote_area {
