@@ -6,7 +6,8 @@ body {
 
 .dark,
 .container,
-.boxes {
+.boxes,
+.quote_area {
     padding: 0 200px
 }
 /* Add each section of the site here. Applies the padding.*/
@@ -114,6 +115,24 @@ ul {
 
 .quote_area {
     background-color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote{
+    width: 660px;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote h3 {
+    float: right;
+    font-size: 24px;
+    font-style: normal;
 }
 
 .footer {
