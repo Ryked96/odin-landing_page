@@ -7,8 +7,7 @@ body {
 .dark,
 .container,
 .boxes,
-.quote_area,
-.button_section {
+.quote_area {
     padding: 0 200px
 }
 /* Add each section of the site here. Applies the padding.*/
@@ -145,13 +144,14 @@ ul {
 .button_section {
     display: flex;
     justify-content: center;
+    padding: 0 100px;
 }
 
 .button_area {
     display: flex;
     justify-content: center;
     height: 100px;
-    width: 750px;
+    width: 850px;
     margin: 70px;
     background-color: #3882F6;
     border-radius: 5px;
@@ -161,8 +161,6 @@ ul {
 }
 
 .button_area_text {
-    margin: 100px;
-    margin: 0px;
     align-items: center;
     align-content: center;
     align-self: center;
@@ -177,6 +175,9 @@ ul {
 Future fix, figure out how to get rid of the marings without this 
 selector. */
 
+.button_area_text p {
+    font-size: 18px;
+}
 
 #button_white {
     display: flex;
