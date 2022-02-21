@@ -17,9 +17,9 @@ button {
     background-color: #3882F6;
     border: 4px solid #3882F6;
     border-radius: 5px;
-    width: 150px;
+    width: 175px;
     height: 45px;
-    font-size: 24px;
+    font-size: 20px;
     color: #F9FAF8;
 }
 
@@ -150,7 +150,7 @@ ul {
 .button_area {
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 100px;
     width: 750px;
     margin: 70px;
     background-color: #3882F6;
@@ -161,8 +161,22 @@ ul {
 }
 
 .button_area_text {
-    padding: 0;
-    margin: 0;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#button_white {
+    display: flex;
+    border: 3px solid #F9FAF8;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .footer {
