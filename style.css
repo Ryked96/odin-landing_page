@@ -16,7 +16,7 @@ button {
     background-color: #3882F6;
     border: 4px solid #3882F6;
     border-radius: 5px;
-    width: 175px;
+    min-width: 175px;
     height: 45px;
     font-size: 20px;
     color: #F9FAF8;
@@ -168,8 +168,7 @@ ul {
 }
 
 .button_area_text h4, .button_area_text p {
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0 25px 0 25px;
 }
 /* This removes the margins that appeared on this area of text. 
 Future fix, figure out how to get rid of the marings without this 
