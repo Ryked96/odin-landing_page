@@ -161,13 +161,22 @@ ul {
 }
 
 .button_area_text {
-    padding: 0px;
+    margin: 100px;
     margin: 0px;
     align-items: center;
     align-content: center;
     align-self: center;
     justify-content: center;
 }
+
+.button_area_text h4, .button_area_text p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* This removes the margins that appeared on this area of text. 
+Future fix, figure out how to get rid of the marings without this 
+selector. */
+
 
 #button_white {
     display: flex;
