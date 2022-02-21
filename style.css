@@ -135,6 +135,23 @@ ul {
     font-style: normal;
 }
 
+.button_section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    width: 350px;
+    background-color: #3882F6;
+    margin: 70px;
+}
+
 .footer {
     display: flex;
     flex: 1 1 auto;
