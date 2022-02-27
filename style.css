@@ -60,6 +60,8 @@ ul {
 .awesome-text {
     width: 400px;
     flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-right: 50px;
 }
 
 .secondary-text {
@@ -72,7 +74,6 @@ ul {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .awesome img {
