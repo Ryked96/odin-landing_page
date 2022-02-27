@@ -12,6 +12,14 @@ body {
 }
 /* Add each section of the site here. Applies the padding.*/
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
 button {
     background-color: #3882F6;
     border: 4px solid #3882F6;
