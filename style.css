@@ -21,8 +21,8 @@ a:visited {
 }
 
 button {
-    background-color: #3882F6;
-    border: 4px solid #3882F6;
+    background-color: #f63838;
+    border: 4px solid #d8574e;
     border-radius: 5px;
     min-width: 175px;
     height: 45px;
@@ -31,7 +31,7 @@ button {
 }
 
 .dark {
-    background-color: #1F2937;
+    background-color: #3d2321;
     color: #F9FAF8;
     padding-bottom: 90px;
 }
@@ -117,7 +117,7 @@ ul {
 
 .frame img {
     border-radius: 25px;
-    border: 4px solid #3882F6;
+    border: 4px solid #f63838;
     width: 150px;
     height: 150px;
 }
@@ -162,7 +162,7 @@ ul {
     height: 100px;
     width: 850px;
     margin: 70px;
-    background-color: #3882F6;
+    background-color: #851515;
     border-radius: 5px;
     font-size: 24px;
     color: #F9FAF8;
@@ -189,7 +189,7 @@ selector. */
 
 #button_white {
     display: flex;
-    border: 3px solid #F9FAF8;
+    border: 3px solid #cf4c48;
     margin: 80px;
     justify-content: center;
     align-items: center;
